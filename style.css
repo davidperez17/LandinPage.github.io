@@ -104,7 +104,7 @@ a {
   text-align: justify;
 }
 
-/* ! SIDEBAR */
+/* ! nav - SIDEBAR */
 .sidebar {
   grid-area: sidebar;
 
@@ -165,7 +165,7 @@ a {
   transition: 0.5s;
 }
 
-/* ! CARD - ASIDES */
+/* ! Info card - 1 */
 .card__2 {
   grid-area: card-2;
   display: grid;
@@ -199,6 +199,8 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+/* ! Info card - 2 */
 
 .card__3 {
   grid-area: card-3;
@@ -344,8 +346,8 @@ a {
     font-size: 2rem;
   }
   .testimonial__solo img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -354,7 +356,7 @@ a {
     left: 70%;
     bottom: 80%;
     width: 100px;
-    height: 130px;
+    height: 135px;
     transform: scaleX(-1);
   }
   .button__scroll {
@@ -367,6 +369,6 @@ a {
     text-align: center;
   }
   .testimonial__solo img {
-    height: 150px;
+    height: 160px;
   }
 }
