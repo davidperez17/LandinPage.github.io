@@ -271,21 +271,9 @@ a {
 .testimonial_p {
   padding-bottom: 0.6rem;
 }
-.test-1 {
-  padding: 1rem;
-  background-color: #575656;
-}
-.test-2 {
-  padding: 1rem;
+
+.test {
   background-color: #7a7a7a;
-}
-.test-3 {
-  padding: 1rem;
-  background-color: #b6b6b6;
-}
-.test-4 {
-  padding: 1rem;
-  background-color: #dddcdcbb;
 }
 
 /* ! FOOTER */
