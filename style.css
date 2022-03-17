@@ -40,7 +40,7 @@ a {
     "testimonial     testimonial      testimonial";
 }
 
-.header,
+.nav,
 .contenido,
 .sidebar,
 .testimonial,
@@ -51,19 +51,19 @@ a {
 }
 
 /* ! BARRA DE NAVEGACIÓN */
-.header {
+.nav {
   min-height: 60px;
   grid-area: header;
 }
 
-.header__list {
+.nav__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 
-.header__list-links {
+.nav__list-links {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -71,13 +71,13 @@ a {
   gap: 20px;
 }
 
-.header__list-button {
+.nav__list-button {
   padding: 10px;
   border: 1px solid;
   font-family: "Quicksand", sans-serif;
 }
 
-.header__list-button:hover {
+.nav__list-button:hover {
   transition: 0.5s;
   background-color: #000;
   color: #fff;
@@ -296,17 +296,17 @@ a {
 
 /* * --------RESPONSIVE DESING--------- */
 @media screen and (max-width: 786px) {
-  .header__list {
+  .nav__list {
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
     justify-content: center;
   }
-  .header__list-links {
+  .nav__list-links {
     flex-direction: column-reverse;
   }
 
-  .header__list-logo {
+  .nav__list-logo {
     display: none;
   }
   .contenedor__main {
