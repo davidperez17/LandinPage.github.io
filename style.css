@@ -222,6 +222,12 @@ a {
   border-radius: 10px;
   padding: 60px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  padding: 20px;
 }
 
 .card__img-hidden {
