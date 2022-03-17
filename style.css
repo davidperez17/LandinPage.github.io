@@ -262,6 +262,8 @@ a {
   min-height: 230px;
   border-radius: 10px;
   text-align: left;
+  background-color: #7a7a7a;
+  padding: 20px;
 }
 
 .testimonial_p {
@@ -270,10 +272,6 @@ a {
 }
 .testimonial_p {
   padding-bottom: 0.6rem;
-}
-
-.test {
-  background-color: #7a7a7a;
 }
 
 /* ! FOOTER */
