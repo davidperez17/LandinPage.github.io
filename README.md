@@ -1,2 +1,2 @@
 # LandinPage.github.io
-Landin Page de mi portafolio
+Landin Page - NFT
